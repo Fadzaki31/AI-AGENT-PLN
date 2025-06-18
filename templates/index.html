@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Klasifikasi JRA</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Agent Klasifikasi Dokumen</h1>
+        <p>Unggah file Excel (.xlsx) yang berisi kolom "Judul Dokumen" untuk diklasifikasikan secara otomatis berdasarkan Jadwal Retensi Arsip (JRA).</p>
+
+        <form action="/process-file/" method="post" enctype="multipart/form-data" class="upload-form">
+            <label for="file-upload" class="custom-file-upload">
+                Pilih File Excel...
+            </label>
+            <input id="file-upload" name="file" type="file" accept=".xlsx, .xls" required>
+            <span id="file-name">Tidak ada file yang dipilih</span>
+            <button type="submit">Proses File</button>
+        </form>
+
+        <div class="footer">
+            Dibuat dengan FastAPI & ❤️
+        </div>
+    </div>
+
+    <script>
+        // Script sederhana untuk menampilkan nama file yang dipilih
+        document.getElementById('file-upload').onchange = function () {
+            var fileName = this.files[0] ? this.files[0].name : "Tidak ada file yang dipilih";
+            document.getElementById('file-name').textContent = fileName;
+        };
+    </script>
+</body>
+</html>
