@@ -1,88 +1,149 @@
-/* static/css/style.css */
+/* static/css/style.css - VERSI BARU */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-color: #f4f7f9;
-    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    color: #4A4A4A;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .container {
     background-color: #ffffff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     text-align: center;
-    max-width: 600px;
+    max-width: 650px;
     width: 100%;
+    border-top: 5px solid #007BFF;
 }
 
 h1 {
-    color: #2c3e50;
-    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-p {
-    color: #7f8c8d;
-    line-height: 1.6;
-    margin-bottom: 30px;
+p.description {
+    color: #6c757d;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    font-size: 16px;
 }
 
 .upload-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #fafafa;
 }
 
-/* Menyembunyikan input file asli */
 input[type="file"] {
     display: none;
 }
 
-/* Membuat tombol upload custom */
 .custom-file-upload {
-    border: 2px dashed #3498db;
-    color: #3498db;
-    background-color: #faffff;
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    background-color: #ffffff;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 25px;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    width: 80%;
 }
 
 .custom-file-upload:hover {
-    background-color: #3498db;
+    background-color: #007BFF;
     color: #ffffff;
+    transform: translateY(-2px);
 }
 
 #file-name {
-    color: #95a5a6;
+    color: #555;
     font-style: italic;
+    font-size: 14px;
+    word-break: break-all;
 }
 
 button[type="submit"] {
-    background-color: #2ecc71;
+    background: linear-gradient(45deg, #007BFF, #0056b3);
     color: white;
     border: none;
-    padding: 12px 25px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
 }
 
 button[type="submit"]:hover {
-    background-color: #27ae60;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
 }
+
+button[type="submit"]:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
 
 .footer {
     margin-top: 40px;
     font-size: 12px;
-    color: #bdc3c7;
+    color: #adb5bd;
+}
+
+/* ===== STYLE BARU UNTUK LOADING SPINNER ===== */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+#overlay p {
+    color: #333;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #007BFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

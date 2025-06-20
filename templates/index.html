@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Agent Klasifikasi JRA</title>
     <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    
 </head>
 <body>
     <div class="container">
@@ -26,11 +31,28 @@
     </div>
 
     <script>
-        // Script sederhana untuk menampilkan nama file yang dipilih
-        document.getElementById('file-upload').onchange = function () {
-            var fileName = this.files[0] ? this.files[0].name : "Tidak ada file yang dipilih";
-            document.getElementById('file-name').textContent = fileName;
-        };
-    </script>
+            const uploadForm = document.querySelector('.upload-form');
+            const overlay = document.getElementById('overlay');
+            const fileInput = document.getElementById('file-upload');
+            const fileNameSpan = document.getElementById('file-name');
+
+            // Script untuk menampilkan nama file yang dipilih
+            fileInput.onchange = function () {
+                const fileName = this.files[0] ? this.files[0].name : "Tidak ada file yang dipilih";
+                fileNameSpan.textContent = fileName;
+            };
+
+            // Script untuk menampilkan overlay saat form disubmit
+            uploadForm.addEventListener('submit', function() {
+                // Pastikan file sudah dipilih sebelum menampilkan loading
+                if (fileInput.files.length > 0) {
+                    overlay.style.display = 'flex';
+                }
+            });
+        </script>
+    <div id="overlay">
+            <div class="spinner"></div>
+            <p>Sedang memproses... mohon tunggu.</p>
+        </div>
 </body>
 </html>
