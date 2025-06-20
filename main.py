@@ -1,46 +1,30 @@
 # ==================================================================
-#            main.py - VERSI FINAL (DISEMPURNAKAN TANPA DASK)
+#           main.py - VERSI FINAL (DENGAN STRATEGI LAZY LOADING)
 # ==================================================================
-
 import os
 import io
 import time
 import requests
 import pandas as pd
-# import dask.dataframe as dd <-- HAPUS DASK
 from dotenv import load_dotenv
 from flask import Flask, request, render_template, send_file
 
 # Memuat variabel rahasia
-load_dotenv() 
+load_dotenv()
 
-# --- KONFIGURASI GLOBAL (TIDAK BERUBAH) ---
+# --- KONFIGURASI GLOBAL ---
+# Variabel ini dimuat saat startup, ini ringan dan tidak apa-apa
 HF_API_KEY = os.getenv("HF_API_KEY")
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-mnli"
 HEADERS = {"Authorization": f"Bearer {HF_API_KEY}"}
+JRA_FILE_PATH = "JRA.xlsx - Sheet1.csv" 
 
-# --- MEMUAT PEDOMAN JRA (TIDAK BERUBAH) ---
-JRA_FILE_PATH = "/home/fadzaki/ai-agent-pln/JRA.xlsx - Sheet1.csv"
-JRA_LABELS = []
-JRA_DETAILS_DF = None
-
-try:
-    column_names = ["Kode", "Uraian", "Retensi Aktif", "Retensi Inaktif", "Keterangan"]
-    JRA_DETAILS_DF = pd.read_csv(
-        JRA_FILE_PATH, engine='python', header=None, names=column_names
-    )
-    JRA_DETAILS_DF.set_index('Kode', inplace=True)
-    JRA_LABELS = (JRA_DETAILS_DF.index + " " + JRA_DETAILS_DF['Uraian']).tolist()
-    print("SUCCESS: Pedoman JRA berhasil dimuat.")
-except Exception as e:
-    print(f"FATAL ERROR saat memproses file JRA: {e}")
-    JRA_LABELS = ["ERROR: Gagal memproses file JRA"]
-
-# --- FUNGSI INTI (TIDAK BERUBAH) ---
-def classify_title(title: str):
-    if not JRA_LABELS or "ERROR" in JRA_LABELS[0]:
-        return "Klasifikasi tidak bisa dilakukan, pedoman JRA tidak dimuat."
-    payload = { "inputs": title, "parameters": {"candidate_labels": JRA_LABELS} }
+# --- FUNGSI INTI (DIMODIFIKASI UNTUK MENERIMA DATA) ---
+# Perhatikan sekarang ada parameter 'jra_labels'
+def classify_title(title: str, jra_labels: list):
+    if not jra_labels:
+        return "Klasifikasi gagal, pedoman JRA kosong."
+    payload = { "inputs": title, "parameters": {"candidate_labels": jra_labels} }
     try:
         response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=20)
         response.raise_for_status() 
@@ -49,70 +33,78 @@ def classify_title(title: str):
     except Exception as e:
         return f"Error Klasifikasi API: {e}"
 
-def get_jra_details(klasifikasi_lengkap: str):
-    if JRA_DETAILS_DF is None: return "N/A", "N/A", "DataFrame Pedoman tidak dimuat"
+# Perhatikan sekarang ada parameter 'jra_df'
+def get_jra_details(klasifikasi_lengkap: str, jra_df: pd.DataFrame):
+    if jra_df is None: return "N/A", "N/A", "DataFrame Pedoman tidak dimuat"
     try:
         kode_jra = klasifikasi_lengkap.split()[0]
-        detail = JRA_DETAILS_DF.loc[kode_jra]
+        detail = jra_df.loc[kode_jra]
         return detail['Retensi Aktif'], detail['Retensi Inaktif'], detail['Keterangan']
     except (KeyError, IndexError):
         return "N/A", "N/A", "Tidak Ditemukan di Pedoman"
 
-# --- SETUP APLIKASI FLASK (TIDAK BERUBAH) ---
+# --- SETUP APLIKASI FLASK ---
 app = Flask(__name__)
 
 # --- ENDPOINTS (ROUTE) ---
 @app.route("/")
 def read_root():
+    # Fungsi ini sekarang sangat ringan, hanya menampilkan HTML
     return render_template("index.html")
 
 @app.route("/process-file/", methods=['POST'])
 def process_file():
+    # --- SEMUA PEKERJAAN BERAT DIMULAI DI SINI, SETELAH FILE DIUNGGAH ---
     if 'file' not in request.files: return "Error: Tidak ada file yang diunggah.", 400
-    file = request.files['file']
-    if file.filename == '': return "Error: Tidak ada file yang dipilih.", 400
+    uploaded_file = request.files['file']
+    if uploaded_file.filename == '': return "Error: Tidak ada file yang dipilih.", 400
 
-    temp_path = f"temp_{file.filename}"
+    # 1. Memuat Pedoman JRA (HANYA SAAT DIBUTUHKAN)
     try:
-        file.save(temp_path)
-        df = pd.read_excel(temp_path, engine='openpyxl')
-        if 'Judul Dokumen' not in df.columns:
+        column_names = ["Kode", "Uraian", "Retensi Aktif", "Retensi Inaktif", "Keterangan"]
+        jra_details_df = pd.read_csv(
+            JRA_FILE_PATH, engine='python', header=None, names=column_names
+        )
+        jra_details_df.set_index('Kode', inplace=True)
+        jra_labels = (jra_details_df.index + " " + jra_details_df['Uraian']).tolist()
+    except Exception as e:
+        return f"Error Kritis: Gagal memuat file pedoman JRA. Error: {e}", 500
+
+    # 2. Proses File Unggahan Pengguna
+    temp_path = f"temp_{uploaded_file.filename}"
+    try:
+        uploaded_file.save(temp_path)
+        df_to_process = pd.read_excel(temp_path, engine='openpyxl')
+        if 'Judul Dokumen' not in df_to_process.columns:
             raise ValueError("File Excel harus memiliki kolom bernama 'Judul Dokumen'")
-            
-        # --- BLOK DASK DIHAPUS ---
-        # ddf = dd.from_pandas(df, npartitions=4)
-        # def classify_partition(...): ...
-        # result_ddf = ddf.map_partitions(...)
-        # result_df = result_ddf.compute()
-        # --- AKHIR BLOK DASK YANG DIHAPUS ---
 
-        # --- DIGANTIKAN DENGAN PROSES PANDAS YANG LEBIH SEDERHANA ---
-        # Langsung terapkan fungsi classify_title ke DataFrame pandas
-        # Ini akan memproses baris per baris secara sekuensial
-        df['Klasifikasi'] = df['Judul Dokumen'].apply(
-            lambda title: (time.sleep(0.1), classify_title(str(title)))[1]
+        # 3. Lakukan Klasifikasi (menggunakan data JRA yang baru dimuat)
+        df_to_process['Klasifikasi'] = df_to_process['Judul Dokumen'].apply(
+            lambda title: (time.sleep(0.1), classify_title(str(title), jra_labels=jra_labels))[1]
         )
-        result_df = df # DataFrame hasil adalah df yang sudah kita modifikasi
-        # --- AKHIR DARI BLOK PENGGANTI ---
-
+        result_df = df_to_process
+        
+        # 4. Ambil Detail (menggunakan data JRA yang baru dimuat)
         result_df[['Aktif', 'Inaktif', 'Keterangan']] = result_df['Klasifikasi'].apply(
-            lambda x: pd.Series(get_jra_details(x))
+            lambda x: pd.Series(get_jra_details(x, jra_df=jra_details_df))
         )
 
+        # 5. Buat File Output Excel
         output = io.BytesIO()
-        writer = pd.ExcelWriter(output, engine='openpyxl')
-        result_df.to_excel(writer, index=False, sheet_name='Hasil Klasifikasi')
-        writer.close()
+        with pd.ExcelWriter(output, engine='openpyxl') as writer:
+            result_df.to_excel(writer, index=False, sheet_name='Hasil Klasifikasi')
         output.seek(0)
 
         return send_file(
             output,
             mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
             as_attachment=True,
-            download_name=f"hasil_klasifikasi_{file.filename}"
+            download_name=f"hasil_klasifikasi_{uploaded_file.filename}"
         )
-    except ValueError as e:
-        return {"error": str(e)}
+    except Exception as e:
+        # Menangkap error lain selama pemrosesan
+        return f"Terjadi error saat memproses file Anda: {e}", 500
     finally:
+        # Selalu hapus file sementara
         if os.path.exists(temp_path):
             os.remove(temp_path)
