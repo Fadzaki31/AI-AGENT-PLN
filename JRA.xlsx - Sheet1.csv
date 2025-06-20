@@ -1,308 +1,308 @@
-REN.00.01	Rencana Jangka Panjang (RJP) (Rencana Usaha Penyediaan Tenaga Listrik/RUPTL, Rencana Umum Ketenagalistrikan Nasional / RUKN)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-REN.00.02	Rencana Jangka Menengah	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-REN.00.03	Rencana Kerja Tahunan Perusahaan	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-REN.00.04	Rencana Kerja Anak Perusahaan	2 Tahun setelah tidak berlaku	3 Tahun	Permanen		
-REN.01.01	Laporan Berkala (Laporan Bulanan, Laporan Triwulan, Laporan Semesteran)	1 Tahun setelah tahun anggaran berakhir	1 Tahun	Musnah
-REN.01.02	Laporan Khusus/Insidental	2 Tahun	3 Tahun	Musnah, kecuali Laporan Khusus yang berdampak nasional Permanen
-REN.01.03	Laporan Manajemen (Monitoring Kinerja Bulanan Perusahaan, Notulen)	2 Tahun	3 Tahun	Musnah
-REN.01.04	Laporan Tahunan Perusahaan (Annual Report)	2 Tahun setelah diperbaharui	3 Tahun	Permanen
-REN.01.05	Laporan Statistik	2 Tahun setelah diperbaharui	3 Tahun	Musnah
-REN.01.06	Laporan Anak Perusahaan	2 Tahun setelah diperbaharui	3 Tahun	Musnah		
-ORG.00.01	Pendirian Perusahaan (Akta Pendirian Perusahaan, Anggaran Dasar & Anggaran Rumah Tangga Perusahaan)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-ORG.00.02	Struktur Organisasi (Pembentukan, Perubahan, Pengembangan, Evaluasi, Pembubaran)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-ORG.00.03	Identitas Perusahaan (Sejarah/Company Profile, Visi Misi, Tata Nilai, Logo)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen		
-ORG.01.01	Standar Operasional Prosedur (Penyusunan, Revisi, Perubahan, Dokumen Final) Instruksi Kerja (WI) (Penyusunan, Revisi, Perubahan, Dokumen Final)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-ORG.01.01	Instruksi Kerja (WI) (Penyusunan, Revisi, Perubahan, Dokumen Final)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-ORG.01.02	Kriteria Penilaian Kinerja Unggul (KPKU) (Aplikasi/peta ADLI, OFI, Tinjauan Manajemen, Serveilance)	2 Tahun setelah tidak berlaku	3 Tahun	Musnah kecuali Hasil Penilaian KPKU Permanen
-ORG.01.03	Sertifikasi Perusahaan (Sertifikasi Kelaikan Instalasi, Produk, Sistem Manajemen Mutu, Lingkungan, K3, Keamanan)	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-ORG.01.04	Key Performance Indicator (KPI) (Kontrak Manajemen, Hard/Soft Competency Individu)	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-ORG.01.05	Analisis Beban Kerja (ABK) (Penyusunan, Hasil, Sosialisasi)	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-ORG.01.06	Job Description (Usulan, Balasan, Job Scoring, Hasil)	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-ORG.01.07	Inovasi Perusahaan / Gugus Kendali Mutu (GKM)	2 Tahun setelah tidak berlaku	3 Tahun	Musnah, kecuali Penghargaan bertaraf Nasional dan Internasional Permanen		
-HKM.00.01	Peraturan Direksi	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.00.02	Peraturan Pelaksana	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.00.03	Manual Produk	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.00.04	Petunjuk Teknis	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.00.05	Memorandum Prosedur	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.00.06	Keputusan	2 Tahun setelah tidak berlaku	3 Tahun	Permanen		
-HKM.01.01	Keputusan Pemegang Saham	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.01.02	Akta-Akta Perusahaan/Notariat (Pemegang Saham, Perubahan, Pengangkatan/Pemberhentian Direksi & Komisaris, Perubahan Modal)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen		
-HKM.02.01	Perjanjian Kerjasama / MoU Dalam Negeri (Lembaga Negara, Joint Venture, Perguruan Tinggi)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.02.02	Perjanjian Kerjasama / MoU Luar Negeri	2 Tahun setelah tidak berlaku	3 Tahun	Permanen			
-HKM.03.01	Sosialisasi Hukum	2 Tahun	3 Tahun	Musnah			
-HKM.04.01	Litigasi (Pidana, Perdata, PTUN)	1 Tahun setelah putusan inkracht	4 Tahun	Permanen
-HKM.04.02	Non Litigasi (Perburuhan, Arbitrase)	2 Tahun setelah putusan inkracht	3 Tahun	Permanen		
-HKM.05.01	Bantuan Hukum	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.05.02	Konsultasi Hukum (Permintaan/Pengadaan Konsultan)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-HKM.05.03	Kajian Hukum/Legal review/legal opinion	2 Tahun setelah tidak berlaku	3 Tahun	Permanen		
-HKM.06.01	Dokumentasi Perundang-undangan (UU, PP, Peraturan Menteri, dll.)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen		
-HKM.07.01	Perizinan Operasional (Pembangkitan, Transmisi, Izin Radioaktif, Pengeboran)	2 Tahun setelah diperbaharui	3 Tahun	Permanen
-HKM.07.02	Perizinan Pengembangan (Izin AMDAL, Prinsip, Reklame)	2 Tahun setelah izin berakhir	3 Tahun	Musnah
-HKM.07.03	Perizinan Aset (IMB, HGB, Hak Pakai Tanah)	2 Tahun setelah dipindahtangankan	3 Tahun	Musnah		
-HKM.08.01	Hak Cipta	Sampai HAKI habis	2 Tahun	Permanen
-HKM.08.02	Hak Paten	Sampai HAKI habis	2 Tahun	Permanen
-HKM.08.03	Permohonan HAKI yang ditolak	1 Tahun Setelah Permohonan ditolak	2 Tahun	Musnah		
-STH.00.01	Penyelenggaraan Kegiatan Kedinasan (Sertijab, Peresmian, HUT, dll.)	1 Tahun	1 Tahun	Musnah
-STH.00.02	Kunjungan / Studi Banding (Dalam & Luar Negeri)	2 Tahun	3 Tahun	Musnah, kecuali kunjungan Tokoh/pejabat negara dan pimpinan lembaga permanen
-STH.00.03	Agenda Kegiatan Direksi	2 Tahun	3 Tahun	Musnah		
-STH.01.01	Hubungan dengan Lembaga Pemerintah	2 Tahun	3 Tahun	Musnah
-STH.01.02	Hubungan dengan Perusahaan lain / Anak Perusahaan	2 Tahun	3 Tahun	Musnah
-STH.01.03	Hubungan dengan Organisasi Sosial/LSM/Masyarakat/Bakohumas	2 Tahun	3 Tahun	Musnah
-STH.01.04	Hubungan dengan Lembaga Pendidikan (Kerja Praktek/Magang)	3 Tahun	2 Tahun	Musnah
-STH.01.05	Hubungan dengan Media Massa (Press Release, Kunjungan Wartawan)	Bervariasi	Bervariasi	Musnah			
-STH.02.01	DPR/DPD RI	1 Tahun	4 Tahun	Permanen
-STH.02.02	DPRD	1 Tahun	4 Tahun	Permanen		
-STH.03.01	Media Cetak (Majalah, Jurnal, Newsletter, dll.)	2 Tahun setelah kegiatan	3 Tahun	Musnah, kecuali Master Permanen
-STH.03.02	Media Elektronik / Media Sosial / Website	2 Tahun setelah kegiatan	3 Tahun	Musnah, kecuali Master Permanen
-STH.03.03	Pengumpulan, Pengolahan dan Penyajian Informasi (Kliping, Brosur, dll.)	2 Tahun	3 Tahun	Musnah
-STH.03.04	Company Profile	1 Tahun setelah diperbaharui	2 Tahun	Musnah, kecuali Master Permanen
-STH.03.05	Desain dan Cetak (Backdrop, Spanduk, Iklan)	1 Tahun	1 Tahun	Musnah		
-STH.04.01	Sponsorship (Proposal dibantu/ditolak)	1 Tahun	1 Tahun	Musnah		
-STH.05.01	Pameran Dalam Negeri	2 Tahun	3 Tahun	Musnah
-STH.05.02	Pameran Luar Negeri	2 Tahun	3 Tahun	Musnah	
-STH.06.01	Dokumentasi/Liputan Acara (Foto, Video, dll.)	2 Tahun	3 Tahun	Musnah kecuali peristiwa berskala nasional Permanen
-STH.07.01	Pelaporan Masyarakat	2 Tahun	3 Tahun	Musnah
-STH.07.02	Penanganan Keluhan	2 Tahun	3 Tahun	Musnah
-STH.08.01	Cenderamata	1 Tahun	1 Tahun	Musnah		
-STH.09.01	Ucapan Terima kasih, selamat, belasungkawa, permohonan maaf	1 Tahun		Musnah			
-KEU.00.01	Usulan RKAP	2 Tahun	3 Tahun	Musnah
-KEU.00.02	Penyusunan RKAP (Corporate Letter, Parameter, Analisis, Pembahasan, Pra RUPS, Persetujuan)	2 Tahun setelah tahun anggaran berakhir	3 Tahun	Musnah, kecuali RKAP yang telah disetujui di RUPS Permanen
-KEU.00.03	Realisasi dan Revisi Anggaran	2 Tahun	3 Tahun	Musnah
-KEU.01.01	Pembayaran Internal (Honor, Gaji, SPB, Uang Muka, Perjalanan Dinas)	5 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.02	Pembayaran Eksternal	5 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.03	Pengelolaan Asuransi (Pembangkit, Gedung, Kendaraan, Ketenagakerjaan)	5 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.04	Rekonsiliasi Bank (Rekening Koran, Berita Acara)	2 Tahun	8 Tahun	Musnah
-KEU.01.05	Letter of Credit (LC/SKBDN)	5 tahun setelah hak dan kewajiban habis	10 Tahun	Musnah
-KEU.01.06	Perpajakan (PPN, PPh, Surat-surat Perpajakan)	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.07	Dokumen Pendukung Pajak (Invoice, Kontrak, Tanda Terima, Berita Acara, DO)	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.08	Pendanaan (Penempatan Dana)	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.09	Administrasi Pinjaman Dalam Negeri	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.10	Pinjaman Subholding/Anak Perusahaan	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.01.11	Institusi Keuangan dan Riset Pasar	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah		
-KEU.02.01	Laporan Induk Bulanan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	3 Tahun	Musnah
-KEU.02.02	Laporan Konsolidasi Bulanan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	3 Tahun	Musnah
-KEU.02.03	Laporan Induk Tahunan	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Permanen
-KEU.02.04	Laporan Konsolidasi Tahunan	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.02.05	Laporan Realisasi Anggaran, Prognosa Keuangan, Jurnal	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.02.06	Jurnal Koreksi, Jurnal Pembebanan	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.02.07	Laporan Kewajiban Pinjaman	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah		
-KEU.03.01	Transaksi Investasi dan Aset	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.03.02	Transaksi Pertanggung Jawaban Kegiatan	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah
-KEU.03.03	Transaksi Penggantian/Reimburse	5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai	10 Tahun	Musnah		
-KEU.04.01	System Application and Product (SAP)	2 Tahun setelah tahun anggaran	8 Tahun	Musnah
-KEU.04.02	Manual Aplikasi	2 Tahun setelah diperbaharui	3 Tahun	Permanen
-KEU.04.03	Kebijakan Akuntansi	2 Tahun setelah diperbaharui	3 tahun	Permanen	
-DAN.00.01	Kebutuhan Pengadaan (Analisa, Permintaan, WO/MR, PR, dll.)	1 Tahun setelah diperbaharui	1 Tahun	Musnah
-DAN.00.02	Registrasi Rekanan (Evaluasi dokumen, Persetujuan, Daftar Rekanan, Evaluasi Performance)	1 Tahun setelah diperbaharui	2 Tahun	Musnah		
-DAN.01.01	Pengadaan Barang (Dokumen lengkap dari HPS hingga PO)	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	8 Tahun	Musnah
-DAN.01.02	Pengadaan Aset (Tanah, Bangunan, Pembangkit, Transmisi, Distribusi, Kendaraan)	2 Tahun setelah dipindahtangankan	8 Tahun	Musnah
-DAN.01.03	Pengadaan Jasa (Dokumen lengkap dari HPS hingga PO)	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	8 Tahun	Musnah
-DAN.01.04	Pengadaan Jasa Pemeliharaan Kebersihan (Dokumen lengkap dari Order Kerja hingga Penunjukan)	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	8 Tahun	Musnah
-DAN.01.05	Pengadaan Jasa Pemeliharaan Gedung	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	8 Tahun	Musnah
-DAN.01.06	Pengadaan Jasa Keamanan	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	8 Tahun	Musnah
-DAN.01.07	Pengadaan Jasa Tenaga Alih Daya (Outsourcing) (Dokumen lengkap dari Permintaan hingga Negosiasi)	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	8 Tahun	Musnah	
-LOG.00.01	Pemeriksaan dan Penerimaan Barang dan Jasa	1 tahun Setelah tahun anggaran berakhir	1 Tahun	Musnah
-LOG.00.02	Pengelolaan Persediaan/Stock (Registrasi, Distribusi, Persediaan, Adjustment, Stock Opname, Penghapusan)	1 tahun Setelah tahun anggaran berakhir	1 Tahun	Musnah			
-LOG.01.01	Inventarisasi Aset	1 tahun Setelah tahun anggaran berakhir	1 Tahun	Musnah
-LOG.01.02	Penggunaan Aset	1 tahun Setelah tahun anggaran berakhir	1 Tahun	Musnah
-LOG.01.03	Penghapusan Aset (Usulan, Tim, Berita Acara, Daftar Aset)	1 tahun Setelah tahun anggaran berakhir	1 Tahun	Musnah			
-MNJ.00.01	Daftar Pemegang Saham	2 Tahun setelah diperbaharui	3 Tahun	Musnah
-MNJ.00.02	Daftar Saham	2 Tahun setelah diperbaharui	3 Tahun	Musnah		
-MNJ.01.01	Pra Rapat Umum Pemegang Saham (RUPS)	2 Tahun	3 Tahun	Musnah kecuali masuk RUPS
-MNJ.01.02	Rapat Umum Pemegang Saham (RUPS) (Surat Pemberitahuan, Undangan, Daftar Hadir, Materi, Risalah)	2 Tahun	3 Tahun	Permanen
-MNJ.01.03	Rapat Umum Pemegang Saham Luar Biasa (RUPSLB) (Skenario, Undangan, Daftar Hadir, Risalah)	2 Tahun	3 Tahun	Permanen
-MNJ.01.04	Rapat Pimpinan (Rapat Direksi & Dekom, Rapat Dekom, Rapat Direksi)	2 Tahun	3 Tahun	Permanen
-MNJ.01.05	Rapat Gabungan/ Rapat Staff (Monitoring Kinerja/Sosialisasi/Internal)	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-MNJ.01.06	Rapat Koordinasi dengan Anak Perusahaan	1 Tahun setelah tahun anggaran	1 Tahun	Musnah		
-MNJ.02.01	Penciptaan Arsip (Pengelolaan surat masuk & keluar)	2 Tahun setelah Tahun anggaran	3 Tahun	Musnah kecuali buku agenda Permanen
-MNJ.02.02	Pemeliharaan Arsip (Pemberkasan, Penataan, Penyimpanan, Alih Media, Akses)	Bervariasi	Bervariasi	Musnah
-MNJ.02.03	Pengelolaan Arsip Vital dan Arsip Terjaga	1 Tahun setelah Organisasi berakhir	4 Tahun	Permanen
-MNJ.02.04	Penyusutan Arsip (Pemindahan, Pemusnahan, Penyerahan Arsip Statis)	Bervariasi	Bervariasi	Musnah / Permanen (untuk B.A. Pemusnahan)
-MNJ.02.05	Sistem Pengelolaan Arsip Dinamis (TND, Klasifikasi, JRA, KKAA)	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-MNJ.02.06	Pembinaan Kearsipan (Bimtek, Supervisi)	2 Tahun	3 Tahun	Musnah		
-MNJ.03.01	Pengembangan Bahan Pustaka (Akuisisi, Pengolahan)	2 Tahun	3 Tahun	Musnah
-MNJ.03.02	Jasa Perpustakaan dan Informasi (Keanggotaan, Sirkulasi, Referensi)	Bervariasi	Bervariasi	Musnah
-MNJ.03.03	Preservasi Bahan Pustaka (Survei, Konservasi)	1 Tahun	2 Tahun	Musnah
-MUM.00.01	Fungsi Ruangan (Permohonan, Notulen, Rekomendasi)	1 Tahun setelah beralih fungsi	1 Tahun	Musnah
-MUM.00.02	Standar Fasilitas Ruangan	1 Tahun setelah diperbaharui	1 Tahun	Musnah
-MUM.01.01	Penggunaan ruangan, Sarana, Konsumsi/Jamuan	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-MUM.02.01	Listrik, Air, Telepon, Internet	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-MUM.03.01	Penggunaan, Perbaikan, Pajak, Sewa, Pengadaan Bahan Bakar	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-MUM.04.01	Penempatan, Fasilitas, Pemeliharaan Rumah Dinas	2 Tahun	3 Tahun	Musnah
-MUM.05.01	Pengelolaan fotocopy	1 Tahun	1 Tahun	Musnah
-MUM.06.01	Kebersihan Gedung dan Kantor	2 Tahun	2 Tahun	Musnah
-MUM.06.02	Kebersihan Taman dan Halaman	2 Tahun	2 Tahun	Musnah
-SDM.00.01	Usulan Kebutuhan SDM dari Unit Kerja	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-SDM.00.02	Persetujuan/Penetapan Kebutuhan SDM	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-SDM.01.01	Pelaksanaan Recruitment (Pengumuman, Seleksi, Ujian, dll.)	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-SDM.01.02	Berkas Lamaran yang ditolak	1 Tahun setelah tahun anggaran		Musnah
-SDM.01.03	Diklat Calon Karyawan (Dokumen OJT, dll.)	1 Tahun setelah tahun anggaran	3 Tahun	Musnah
-SDM.01.04	Pengangkatan Karyawan Baru	1 Tahun setelah penetapan	2 Tahun	Musnah
-SDM.02.01	Rotasi	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.02.02	Promosi Jabatan	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.02.03	Demosi	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.02.04	Detasiring	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.02.05	Pelaksana Tugas	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.02.06	Pelaksana Harian	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.02.07	Penugasan	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.03.01	Komite appraisal (Notulen, Daftar Hadir)	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.04.01	Assesment Potensi	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.04.02	Assesment Uji Hard Compentency	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.05.01	Pelanggaran Disiplin (Ringan, Sedang, Berat)	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.05.02	Sanksi Disiplin (Ringan, Sedang, Berat)	2 Tahun setelah ditetapkan	3 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.06.01	Remunerasi (Tetap & Tidak Tetap)	2 Tahun setelah tahun anggaran	8 Tahun	Musnah
-SDM.06.02	Perjalanan Dinas / SPPD	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-SDM.06.03	Kehadiran/ Jam Kerja (Shift & Non-shift)	1 Tahun setelah tahun anggaran	1 Tahun	Musnah
-SDM.06.04	Izin/Cuti / Dispensasi Karyawan	1 Tahun setelah pelaksanaan	1 Tahun	Musnah
-SDM.06.05	Sistem Informasi Karyawan (SAP HR, Manual Aplikasi)	1 Tahun setelah diperbaharui	1 Tahun	Permanen
-SDM.07.01	Talent Management	2 Tahun	3 Tahun	Musnah
-SDM.07.02	Pendidikan Tugas Belajar	2 Tahun	3 Tahun	Musnah, kecuali sertifikat/STTPL masuk personal file
-SDM.08.01	Penghargaan Masa kerja Karyawan (2, 3, 4 windu)	2 Tahun setelah SK ditetapkan	3 Tahun	Musnah
-SDM.08.02	Penghargaan karyawan teladan	1 Tahun	1 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.08.03	Penghargaan karyawan lainnya	1 Tahun	1 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.08.04	Penghargaan Inovator	1 Tahun	1 Tahun	Musnah kecuali Penetapan masuk Personal File
-SDM.09.01	Pemeliharaan Kesehatan Karyawan dan Keluarga	2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai	3 Tahun	Musnah
-SDM.09.02	Employement Gathering	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.09.03	Asuransi Tenaga Kerja/ Karyawan	2 Tahun setelah hak dan kewajiban habis	3 Tahun	Musnah
-SDM.09.04	Perlengkapan Kerja (Seragam, Atribut)	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.09.05	Santunan Uang Duka	1 Tahun setelah Penempatan Berakhir	1 Tahun	Musnah
-SDM.09.06	Bantuan Pinjaman Pemilikan Rumah/ BPRP	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.10.01	Bidang Keagamaan	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.10.02	Bidang Olahraga	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.10.03	Bidang Seni	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.10.04	Bintal Karyawan dan Keluarga	1 Tahun setelah tahun Anggaran	1 Tahun	Musnah
-SDM.11.01	Dana Pensiun (Pengurus, Dewan Pengawas, PDP, Arahan Investasi)	2 Tahun setelah dibubarkan	3 Tahun	Musnah
-SDM.12.01	Serikat Pekerja	2 Tahun	3 Tahun	Musnah
-SDM.12.02	Persatuan Istri Karyawan	2 Tahun	3 Tahun	Musnah
-SDM.12.03	Koperasi Karyawan	2 Tahun	3 Tahun	Musnah
-SDM.12.04	YPK	2 Tahun	3 Tahun	Musnah
-SDM.12.05	IKA PLN	2 Tahun	3 Tahun	Musnah
-SDM.12.06	Organisasi Non Kedinasan Lainnya	2 Tahun	3 Tahun	Musnah
-SDM.13.01	Pemutusan Hubungan Kerja dengan Hormat	1 Tahun setelah ditetapkan	4 Tahun	Musnah, kecuali PHK karena pensiun masuk personal file
-SDM.13.02	Pemutusan Hubungan Kerja tidak dengan hormat	1 Tahun setelah ditetapkan	4 Tahun	Musnah, kecuali PHK karena pensiun masuk personal file
-SDM.14.01	Penyelesaian Bidang Ketenagakerjaan/ Sengketa Karyawan	1 Tahun setelah ditetapkan	4 Tahun	Musnah, kecuali PHK karena pensiun masuk personal file
-SDM.15.01	Personal file (SK, Akta, Ijazah, dll. yang berkaitan dengan riwayat karyawan)	5 Tahun setelah PHK/Pensiun	15 Tahun	Musnah, kecuali komisaris, direksi dan karyawan yang berjasa/terlibat peristiwa berskala nasional, permanen
-DLT.00.01	Training Need Analysis (Usulan Pelatihan, dll.)	3 Tahun	3 Tahun	Musnah
-DLT.00.02	Program Diklat Tahunan (Rencana Anggaran, TOR, dll.)	3 Tahun	3 Tahun	Musnah
-DLT.00.03	Kurikulum/Silabus Diklat	3 Tahun	3 Tahun	Musnah
-DLT.00.04	Bahan Ajar Diklat	3 Tahun	3 Tahun	Musnah
-DLT.01.01	Diklat Offsite (Konfirmasi, Pendaftaran, Laporan, dll.)	1 Tahun setelah tahun anggaran	3 Tahun	Musnah
-DLT.01.02	Diklat Inhouse (Undangan, Dokumentasi, Laporan, Daftar Hadir, dll.)	1 Tahun setelah tahun anggaran	3 Tahun	Musnah
-DLT.02.01	Evaluasi Diklat	1 Tahun setelah tahun anggaran	3 Tahun	Musnah
-DLT.03.01	Database / Sistem Informasi Diklat	2 Tahun setelah diperbaharui	3 Tahun	Musnah
-SPI.00.01	Program Audit Tahunan	2 Tahun	2 Tahun	Musnah
-SPI.00.02	Daftar Auditor Internal	5 Tahun	2 Tahun	Musnah
-SPI.01.01	Pengawasan Keuangan (Kertas Kerja, Notice, Laporan, Tindak Lanjut)	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
-SPI.01.02	Pengawasan Operasional (Kertas Kerja, Notice, Laporan, Tindak Lanjut)	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
-SPI.01.03	Pengawasan Khusus/atas Permintaan	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
-SPI.01.04	Pengawasan Kegiatan Lainnya	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
-SPI.02.01	Laporan Hasil Audit Badan Pemeriksa Keuangan (BPK)	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali ada Tindak Lanjut hasil Pemeriksaan Permanen
-SPI.02.02	Laporan Hasil Audit Badan Pemeriksa Keuangan dan Pembangunan (BPKP)	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali ada Tindak Lanjut hasil Pemeriksaan Permanen
-SPI.02.03	Laporan Hasil Audit Kantor Akuntan Publik (KAP)	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
-SPI.02.04	Laporan Auditor Independen (audited)	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
-SPI.03.01	Monitoring Tindaklanjut Pengawasan	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah
-SPI.03.02	Laporan Hasil Evaluasi Monitoring Tindak Lanjut	2 Tahun setelah tindaklanjut selesai	3 Tahun	Musnah
-SPI.04.01	Laporan Tindakan Koreksi dan Pencegahan (LTKP)	2 Tahun	3 Tahun	Musnah
-SPI.05.01	Pakta Integritas, Pernyataan Dekom & Direksi, dll.	2 Tahun	3 Tahun	Musnah
-MRK.00.01	Kajian Risiko	2 Tahun	3 Tahun	Permanen
-MRK.00.02	Mitigasi Risiko	2 Tahun	3 Tahun	Permanen
-MRK.00.03	Pemantauan Risiko	2 Tahun	3 Tahun	Musnah
-MRK.00.04	Evaluasi Penerapan Manajemen Risiko	2 Tahun	3 Tahun	Musnah
-MRK.01.01	Roadmap GCG	2 Tahun setelah tidak berlaku	3 Tahun	Permanen
-MRK.01.02	Diseminasi GCG	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-MRK.01.03	Assessment GCG	2 Tahun setelah tidak berlaku	3 Tahun	Musnah, kecuali Hasil Penilaian GCG Permanen
-MRK.01.04	Kepatuhan (terhadap Peraturan & Kode Etik)	3 Tahun	3 Tahun	Musnah
-MRK.01.04	Program Pengenalan Direksi dan Dewan Komisaris Baru	3 Tahun	3 Tahun	Permanen
-MRK.02.01	Program Pengendalian Gratifikasi (PPG)	2 Tahun	3 Tahun	Musnah
-MRK.03.01	Program Whistleblowing System (WBS)	2 Tahun	3 Tahun	Musnah
-MRK.04.01	Laporan Harta Kekayaan Karyawan (LHKPN)	1 Tahun setelah tidak menjabat/pindah grade	1 Tahun	Musnah
-MRK.05.01	Fraud Control Plan (FCP)	2 Tahun	3 Tahun	Musnah
-KBL.00.01	Penyaluran Pinjaman Program Kemitraan (Proposal, Survei, Perjanjian, Voucher, Jaminan)	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.00.02	Monitoring, Rescheduling, Reconditioning dan Penagihan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	3 Tahun	Musnah
-KBL.00.03	Pembinaan Kemitraan (Promosi, Pelatihan)	1 Tahun	2 Tahun	Musnah
-KBL.00.04	Pelaporan Program Kemitraan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	3 Tahun	Musnah
-KBL.01.01	Bantuan Sosial Kemasyarakatan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.02	Bantuan Pendidikan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.03	Bantuan Pelestarian Alam	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.04	Bantuan Kesehatan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.05	Bantuan Sarana Umum	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.06	Bantuan Sarana Ibadah	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.07	Bantuan Bencana Alam	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KBL.01.08	Pelaporan Bina Lingkungan	2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai	8 Tahun	Musnah
-KLH.00.01	Pengukuran Kondisi Lingkungan Kerja	2 Tahun	3 Tahun	Musnah
-KLH.00.02	Distribusi P3K	2 Tahun	3 Tahun	Musnah
-KLH.00.03	Cek Kesehatan Berkala	2 Tahun setelah pemberhentian kerja/pensiun	3 Tahun	Musnah
-KLH.01.01	Informasi Keselamatan (Safety Information, Safety Induction)	2 Tahun	3 Tahun	Musnah
-KLH.01.02	Inspeksi Berkala	2 Tahun	3 Tahun	Musnah
-KLH.02.01	Pemberian Izin Kerja di area Perusahaan (Work Permit)	1 Tahun setelah Izin tidak berlaku	1 Tahun	Musnah
-KLH.02.02	Identifikasi Bahaya K3 (JSA)	1 Tahun	1 Tahun	Musnah
-KLH.02.03	Laporan Keselamatan & Kesehatan Kerja	1 Tahun setelah tidak digunakan	2 Tahun	Musnah
-KLH.02.04	Investigasi Kecelakaan	1 tahun setelah investigasi dan tindak lanjut selesai	2 Tahun	Musnah
-KLH.02.05	Safety Equipment	1 Tahun	1 Tahun	Musnah
-KLH.03.01	Pengamanan Terbuka (Jadwal, Penjagaan, Pengawalan, Patroli)	1 Tahun	1 Tahun	Musnah
-KLH.03.02	Pengamanan Tertutup (ID Card, Stiker, Monitoring)	1 Tahun	1 Tahun	Musnah
-KLH.03.03	Pengelolaan dan Pengoperasian CCTV	1 Tahun	1 Tahun	Musnah
-KLH.03.04	Izin Perpanjangan dan Penggunaan Senjata Api	2 Tahun setelah izin berakhir	3 Tahun	Musnah
-KLH.03.05	Kerjasama Bidang Kamtibmas dengan TNI dan Polri	1 Tahun setelah perjanjian berakhir	1 Tahun	Musnah
-KLH.04.01	Simulasi Tanggap Darurat	1 Tahun	1 Tahun	Musnah
-KLH.04.02	Training K3	1 Tahun	1 Tahun	Musnah
-KLH.04.03	Training Evaluasi Penggunaan Alat	1 Tahun	1 Tahun	Musnah
-KLH.04.04	Penghargaan K3	1 Tahun	1 Tahun	Musnah
-KLH.04.05	Lomba K3	1 Tahun	1 Tahun	Musnah
-KLH.05.01	Inspeksi K3	1 Tahun	1 Tahun	Musnah
-KLH.05.02	Laporan Kejadian (Kebakaran, kecelakaan kerja, dll.)	1 Tahun	1 Tahun	Musnah, kecuali berdampak secara nasional Permanen
-KLH.05.03	Modifikasi Sarana Peralatan Terkait Penanggulangan	1 Tahun	1 Tahun	Musnah
-KLH.06.01	Laporan P2K3, Notulen Rapat P2K3	2 Tahun	3 Tahun	Musnah			
-KLH.07.01	Safety Management	2 Tahun	3 Tahun	Musnah		
-KLH.08.01	Contractor Safety Management System (CSMS)	1 Tahun setelah kerjasama berakhir	2 Tahun	Musnah			
-KLH.09.01	Gugus Pengendali Kebakaran (Gupenkar)	2 Tahun	3 Tahun	Musnah			
-KLH.10.01	Safety Representative	2 Tahun	3 Tahun	Musnah		
-KLH.11.01	Sistem Manajemen Kesehatan, Kesetamatan dan Keamanan Kerja	2 tahun setelah tidak berlaku	3 Tahun	Musnah			
-EPI.00.01	Penyusunan Kebijakan dan Strategi (Analisa, Kajian, Usulan, Rekomendasi, Rancangan, Penetapan)	2 Tahun setelah diperbarui	3 Tahun	Permanen		
-EPI.01.01	Energi Batubara (Perencanaan, Pelaksanaan, Pengendalian, Monitoring)	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.01.02	Energi Gas (Perencanaan, Pelaksanaan, Pengendalian, Monitoring)	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.01.03	Energi BBM (Perencanaan, Pelaksanaan, Pengendalian, Monitoring)	5 Tahun setelah pelaksanaan	5 Tahun	Musnah		
-EPI.02.01	Air	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.02	Panas Bumi	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.03	Angin	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.04	Surya	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.05	Minyak Nabati	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.06	Gelombang Air Laut	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.07	Nuklir	5 Tahun setelah pelaksanaan	5 Tahun	Musnah
-EPI.02.08	Hidrogen	5 Tahun setelah pelaksanaan	5 Tahun	Musnah		
-TRS.00.01	Penyusunan Kebijakan dan Strategi Transmisi	2 Tahun setelah diperbarui	3 Tahun	Permanen			
-TRS.01.01	Sistem SCADA	2 Tahun setelah tidak beroperasi	3 Tahun	Permanen
-TRS.01.02	Transmisi Tegangan Ekstra Tinggi	2 Tahun setelah tidak beroperasi	3 Tahun	Permanen
-TRS.01.03	Transmisi Tegangan Tinggi	2 Tahun setelah tidak beroperasi	3 Tahun	Permanen
-TRS.01.04	Gardu Induk Tegangan Ekstra Tinggi	2 Tahun setelah tidak beroperasi	3 Tahun	Permanen
-TRS.01.05	Gardu Induk Tegangan Tinggi	2 Tahun setelah tidak beroperasi	3 Tahun	Permanen		
-AGA.00.01	Penyusunan Kebijakan Niaga	2 Tahun setelah tidak berlaku	3 Tahun	Permanen			
-AGA.01.01	Survei Pasar	5 Tahun setelah diperbarui	5 Tahun	Permanen
-AGA.01.02	Riset Pasar	5 Tahun setelah diperbarui	5 Tahun	Permanen
-AGA.01.03	Ekonomi Energi/Forcasting Energy	5 Tahun setelah diperbarui	5 Tahun	Permanen	
-AGA.02.01	Perencanaan, Penagihan, Pelaporan Subsidi	5 Tahun setelah pemeriksaan dan tindak lanjut hasil pemeriksaan telah selesai	5 Tahun	Permanen
-AGA.03.01	Rencana Tarif	5 Tahun setelah diperbarui	5 Tahun	Permanen
-AGA.03.02	Implementasi Tarif	5 Tahun setelah diperbarui	5 Tahun	Permanen		
-AGA.04.01	Pengelolaan Pelanggan (Pemasangan Baru, SPJBTL, Perubahan Data, Manajemen Cater, Billing)	10 Tahun setelah pelaksanaan	10 Tahun	Permanen
-AGA.04.02	Manajemen Piutang (P2APST, Revenue Assurance)	10 Tahun setelah pelaksanaan	10 Tahun	Permanen
-AGA.04.03	Manajemen Pemutusan dan Penyambungan	10 Tahun setelah pelaksanaan	10 Tahun	Permanen		
-AGA.05.01	Contact Center/Info Pelanggan	2 Tahun setelah pelaksanaan	3 Tahun	Musnah kecuali berskala nasional Permanen
-AGA.05.02	Aplikasi Pengaduan Keluhan Terpadu (APKT)	2 Tahun setelah pelaksanaan	3 Tahun	Musnah kecuali berskala nasional Permanen
-AGA.05.03	Tingkat Mutu Pelayanan (TMP)	2 Tahun setelah pelaksanaan	3 Tahun	Musnah kecuali berskala nasional Permanen		
-LIT.00.01	Penelitian Energi Primer dan Energi Terbarukan	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali penelitian berskala nasional Permanen
-LIT.00.02	Penelitian Sistem Pembangkitan	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali penelitian berskala nasional Permanen
-LIT.00.03	Penelitian Sistem Transmisi	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali penelitian berskala nasional Permanen
-LIT.00.04	Penelitian Lingkungan Hidup	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali penelitian berskala nasional Permanen		
-LIT.01.01	Pengujian Energi Primer dan Energi Terbarukan	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen
-LIT.01.02	Pengujian Sistem Pembangkitan	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen
-LIT.01.03	Pengujian Sistem Transmisi dan distribusi	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen
-LIT.01.04	Pengujian Lingkungan Hidup	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen		
-LIT.02.01	Kalibrasi Sistem Pembangkitan	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-LIT.02.02	Kalibrasi Sistem Transmisi dan Distribusi	2 Tahun setelah tidak berlaku	3 Tahun	Musnah		
-LIT.03.01	Study Kelayakan (Feasibility Study, Study Lokasi)	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen
-LIT.03.02	Persetujuan Pemegang Saham (Permohonan, Notulen, Persetujuan RUPS)	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen
-LIT.03.03	Persiapan Proyek (Pembentukan tim, Gambar Rancangan, Laporan)	2 Tahun setelah pabrik tidak beroperasi	3 Tahun	Musnah, kecuali proyek berskala nasional Permanen		
-LIT.04.01	Standarisasi Sistem Pembangkitan	2 Tahun setelah tidak berlaku	3 Tahun	Musnah
-LIT.04.02	Standarisasi Sistem Transmisi dan Distribusi	2 Tahun setelah tidak berlaku	3 Tahun	Musnah	
-CSR.00.01	Pengelolaan program CSR	3 Tahun setelah seluruh proses diselesaikan	7 Tahun	Musnah
-CSR.00.02	Laporan CSR	3 Tahun setelah seluruh proses diselesaikan	7 Tahun	Musnah
+REN.00.01,"Rencana Jangka Panjang (RJP) (Rencana Usaha Penyediaan Tenaga Listrik/RUPTL, Rencana Umum Ketenagalistrikan Nasional / RUKN)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+REN.00.02,Rencana Jangka Menengah,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+REN.00.03,Rencana Kerja Tahunan Perusahaan,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+REN.00.04,Rencana Kerja Anak Perusahaan,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+REN.01.01,"Laporan Berkala (Laporan Bulanan, Laporan Triwulan, Laporan Semesteran)",1 Tahun setelah tahun anggaran berakhir,1 Tahun,Musnah
+REN.01.02,Laporan Khusus/Insidental,2 Tahun,3 Tahun,"Musnah, kecuali Laporan Khusus yang berdampak nasional Permanen"
+REN.01.03,"Laporan Manajemen (Monitoring Kinerja Bulanan Perusahaan, Notulen)",2 Tahun,3 Tahun,Musnah
+REN.01.04,Laporan Tahunan Perusahaan (Annual Report),2 Tahun setelah diperbaharui,3 Tahun,Permanen
+REN.01.05,Laporan Statistik,2 Tahun setelah diperbaharui,3 Tahun,Musnah
+REN.01.06,Laporan Anak Perusahaan,2 Tahun setelah diperbaharui,3 Tahun,Musnah
+ORG.00.01,"Pendirian Perusahaan (Akta Pendirian Perusahaan, Anggaran Dasar & Anggaran Rumah Tangga Perusahaan)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+ORG.00.02,"Struktur Organisasi (Pembentukan, Perubahan, Pengembangan, Evaluasi, Pembubaran)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+ORG.00.03,"Identitas Perusahaan (Sejarah/Company Profile, Visi Misi, Tata Nilai, Logo)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+ORG.01.01,"Standar Operasional Prosedur (Penyusunan, Revisi, Perubahan, Dokumen Final) Instruksi Kerja (WI) (Penyusunan, Revisi, Perubahan, Dokumen Final)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+ORG.01.01,"Instruksi Kerja (WI) (Penyusunan, Revisi, Perubahan, Dokumen Final)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+ORG.01.02,"Kriteria Penilaian Kinerja Unggul (KPKU) (Aplikasi/peta ADLI, OFI, Tinjauan Manajemen, Serveilance)",2 Tahun setelah tidak berlaku,3 Tahun,Musnah kecuali Hasil Penilaian KPKU Permanen
+ORG.01.03,"Sertifikasi Perusahaan (Sertifikasi Kelaikan Instalasi, Produk, Sistem Manajemen Mutu, Lingkungan, K3, Keamanan)",2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+ORG.01.04,"Key Performance Indicator (KPI) (Kontrak Manajemen, Hard/Soft Competency Individu)",2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+ORG.01.05,"Analisis Beban Kerja (ABK) (Penyusunan, Hasil, Sosialisasi)",2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+ORG.01.06,"Job Description (Usulan, Balasan, Job Scoring, Hasil)",2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+ORG.01.07,Inovasi Perusahaan / Gugus Kendali Mutu (GKM),2 Tahun setelah tidak berlaku,3 Tahun,"Musnah, kecuali Penghargaan bertaraf Nasional dan Internasional Permanen"
+HKM.00.01,Peraturan Direksi,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.00.02,Peraturan Pelaksana,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.00.03,Manual Produk,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.00.04,Petunjuk Teknis,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.00.05,Memorandum Prosedur,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.00.06,Keputusan,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.01.01,Keputusan Pemegang Saham,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.01.02,"Akta-Akta Perusahaan/Notariat (Pemegang Saham, Perubahan, Pengangkatan/Pemberhentian Direksi & Komisaris, Perubahan Modal)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.02.01,"Perjanjian Kerjasama / MoU Dalam Negeri (Lembaga Negara, Joint Venture, Perguruan Tinggi)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.02.02,Perjanjian Kerjasama / MoU Luar Negeri,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.03.01,Sosialisasi Hukum,2 Tahun,3 Tahun,Musnah
+HKM.04.01,"Litigasi (Pidana, Perdata, PTUN)",1 Tahun setelah putusan inkracht,4 Tahun,Permanen
+HKM.04.02,"Non Litigasi (Perburuhan, Arbitrase)",2 Tahun setelah putusan inkracht,3 Tahun,Permanen
+HKM.05.01,Bantuan Hukum,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.05.02,Konsultasi Hukum (Permintaan/Pengadaan Konsultan),2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.05.03,Kajian Hukum/Legal review/legal opinion,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.06.01,"Dokumentasi Perundang-undangan (UU, PP, Peraturan Menteri, dll.)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+HKM.07.01,"Perizinan Operasional (Pembangkitan, Transmisi, Izin Radioaktif, Pengeboran)",2 Tahun setelah diperbaharui,3 Tahun,Permanen
+HKM.07.02,"Perizinan Pengembangan (Izin AMDAL, Prinsip, Reklame)",2 Tahun setelah izin berakhir,3 Tahun,Musnah
+HKM.07.03,"Perizinan Aset (IMB, HGB, Hak Pakai Tanah)",2 Tahun setelah dipindahtangankan,3 Tahun,Musnah
+HKM.08.01,Hak Cipta,Sampai HAKI habis,2 Tahun,Permanen
+HKM.08.02,Hak Paten,Sampai HAKI habis,2 Tahun,Permanen
+HKM.08.03,Permohonan HAKI yang ditolak,1 Tahun Setelah Permohonan ditolak,2 Tahun,Musnah
+STH.00.01,"Penyelenggaraan Kegiatan Kedinasan (Sertijab, Peresmian, HUT, dll.)",1 Tahun,1 Tahun,Musnah
+STH.00.02,Kunjungan / Studi Banding (Dalam & Luar Negeri),2 Tahun,3 Tahun,"Musnah, kecuali kunjungan Tokoh/pejabat negara dan pimpinan lembaga permanen"
+STH.00.03,Agenda Kegiatan Direksi,2 Tahun,3 Tahun,Musnah
+STH.01.01,Hubungan dengan Lembaga Pemerintah,2 Tahun,3 Tahun,Musnah
+STH.01.02,Hubungan dengan Perusahaan lain / Anak Perusahaan,2 Tahun,3 Tahun,Musnah
+STH.01.03,Hubungan dengan Organisasi Sosial/LSM/Masyarakat/Bakohumas,2 Tahun,3 Tahun,Musnah
+STH.01.04,Hubungan dengan Lembaga Pendidikan (Kerja Praktek/Magang),3 Tahun,2 Tahun,Musnah
+STH.01.05,"Hubungan dengan Media Massa (Press Release, Kunjungan Wartawan)",Bervariasi,Bervariasi,Musnah
+STH.02.01,DPR/DPD RI,1 Tahun,4 Tahun,Permanen
+STH.02.02,DPRD,1 Tahun,4 Tahun,Permanen
+STH.03.01,"Media Cetak (Majalah, Jurnal, Newsletter, dll.)",2 Tahun setelah kegiatan,3 Tahun,"Musnah, kecuali Master Permanen"
+STH.03.02,Media Elektronik / Media Sosial / Website,2 Tahun setelah kegiatan,3 Tahun,"Musnah, kecuali Master Permanen"
+STH.03.03,"Pengumpulan, Pengolahan dan Penyajian Informasi (Kliping, Brosur, dll.)",2 Tahun,3 Tahun,Musnah
+STH.03.04,Company Profile,1 Tahun setelah diperbaharui,2 Tahun,"Musnah, kecuali Master Permanen"
+STH.03.05,"Desain dan Cetak (Backdrop, Spanduk, Iklan)",1 Tahun,1 Tahun,Musnah
+STH.04.01,Sponsorship (Proposal dibantu/ditolak),1 Tahun,1 Tahun,Musnah
+STH.05.01,Pameran Dalam Negeri,2 Tahun,3 Tahun,Musnah
+STH.05.02,Pameran Luar Negeri,2 Tahun,3 Tahun,Musnah
+STH.06.01,"Dokumentasi/Liputan Acara (Foto, Video, dll.)",2 Tahun,3 Tahun,Musnah kecuali peristiwa berskala nasional Permanen
+STH.07.01,Pelaporan Masyarakat,2 Tahun,3 Tahun,Musnah
+STH.07.02,Penanganan Keluhan,2 Tahun,3 Tahun,Musnah
+STH.08.01,Cenderamata,1 Tahun,1 Tahun,Musnah
+STH.09.01,"Ucapan Terima kasih, selamat, belasungkawa, permohonan maaf",1 Tahun,,Musnah
+KEU.00.01,Usulan RKAP,2 Tahun,3 Tahun,Musnah
+KEU.00.02,"Penyusunan RKAP (Corporate Letter, Parameter, Analisis, Pembahasan, Pra RUPS, Persetujuan)",2 Tahun setelah tahun anggaran berakhir,3 Tahun,"Musnah, kecuali RKAP yang telah disetujui di RUPS Permanen"
+KEU.00.03,Realisasi dan Revisi Anggaran,2 Tahun,3 Tahun,Musnah
+KEU.01.01,"Pembayaran Internal (Honor, Gaji, SPB, Uang Muka, Perjalanan Dinas)",5 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.02,Pembayaran Eksternal,5 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.03,"Pengelolaan Asuransi (Pembangkit, Gedung, Kendaraan, Ketenagakerjaan)",5 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.04,"Rekonsiliasi Bank (Rekening Koran, Berita Acara)",2 Tahun,8 Tahun,Musnah
+KEU.01.05,Letter of Credit (LC/SKBDN),5 tahun setelah hak dan kewajiban habis,10 Tahun,Musnah
+KEU.01.06,"Perpajakan (PPN, PPh, Surat-surat Perpajakan)",5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.07,"Dokumen Pendukung Pajak (Invoice, Kontrak, Tanda Terima, Berita Acara, DO)",5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.08,Pendanaan (Penempatan Dana),5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.09,Administrasi Pinjaman Dalam Negeri,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.10,Pinjaman Subholding/Anak Perusahaan,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.01.11,Institusi Keuangan dan Riset Pasar,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.02.01,Laporan Induk Bulanan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,3 Tahun,Musnah
+KEU.02.02,Laporan Konsolidasi Bulanan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,3 Tahun,Musnah
+KEU.02.03,Laporan Induk Tahunan,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Permanen
+KEU.02.04,Laporan Konsolidasi Tahunan,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.02.05,"Laporan Realisasi Anggaran, Prognosa Keuangan, Jurnal",5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.02.06,"Jurnal Koreksi, Jurnal Pembebanan",5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.02.07,Laporan Kewajiban Pinjaman,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.03.01,Transaksi Investasi dan Aset,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.03.02,Transaksi Pertanggung Jawaban Kegiatan,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.03.03,Transaksi Penggantian/Reimburse,5 tahun setelah tindak lanjut hasil pemeriksaan telah selesai,10 Tahun,Musnah
+KEU.04.01,System Application and Product (SAP),2 Tahun setelah tahun anggaran,8 Tahun,Musnah
+KEU.04.02,Manual Aplikasi,2 Tahun setelah diperbaharui,3 Tahun,Permanen
+KEU.04.03,Kebijakan Akuntansi,2 Tahun setelah diperbaharui,3 tahun,Permanen
+DAN.00.01,"Kebutuhan Pengadaan (Analisa, Permintaan, WO/MR, PR, dll.)",1 Tahun setelah diperbaharui,1 Tahun,Musnah
+DAN.00.02,"Registrasi Rekanan (Evaluasi dokumen, Persetujuan, Daftar Rekanan, Evaluasi Performance)",1 Tahun setelah diperbaharui,2 Tahun,Musnah
+DAN.01.01,Pengadaan Barang (Dokumen lengkap dari HPS hingga PO),2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,8 Tahun,Musnah
+DAN.01.02,"Pengadaan Aset (Tanah, Bangunan, Pembangkit, Transmisi, Distribusi, Kendaraan)",2 Tahun setelah dipindahtangankan,8 Tahun,Musnah
+DAN.01.03,Pengadaan Jasa (Dokumen lengkap dari HPS hingga PO),2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,8 Tahun,Musnah
+DAN.01.04,Pengadaan Jasa Pemeliharaan Kebersihan (Dokumen lengkap dari Order Kerja hingga Penunjukan),2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,8 Tahun,Musnah
+DAN.01.05,Pengadaan Jasa Pemeliharaan Gedung,2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,8 Tahun,Musnah
+DAN.01.06,Pengadaan Jasa Keamanan,2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,8 Tahun,Musnah
+DAN.01.07,Pengadaan Jasa Tenaga Alih Daya (Outsourcing) (Dokumen lengkap dari Permintaan hingga Negosiasi),2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,8 Tahun,Musnah
+LOG.00.01,Pemeriksaan dan Penerimaan Barang dan Jasa,1 tahun Setelah tahun anggaran berakhir,1 Tahun,Musnah
+LOG.00.02,"Pengelolaan Persediaan/Stock (Registrasi, Distribusi, Persediaan, Adjustment, Stock Opname, Penghapusan)",1 tahun Setelah tahun anggaran berakhir,1 Tahun,Musnah
+LOG.01.01,Inventarisasi Aset,1 tahun Setelah tahun anggaran berakhir,1 Tahun,Musnah
+LOG.01.02,Penggunaan Aset,1 tahun Setelah tahun anggaran berakhir,1 Tahun,Musnah
+LOG.01.03,"Penghapusan Aset (Usulan, Tim, Berita Acara, Daftar Aset)",1 tahun Setelah tahun anggaran berakhir,1 Tahun,Musnah
+MNJ.00.01,Daftar Pemegang Saham,2 Tahun setelah diperbaharui,3 Tahun,Musnah
+MNJ.00.02,Daftar Saham,2 Tahun setelah diperbaharui,3 Tahun,Musnah
+MNJ.01.01,Pra Rapat Umum Pemegang Saham (RUPS),2 Tahun,3 Tahun,Musnah kecuali masuk RUPS
+MNJ.01.02,"Rapat Umum Pemegang Saham (RUPS) (Surat Pemberitahuan, Undangan, Daftar Hadir, Materi, Risalah)",2 Tahun,3 Tahun,Permanen
+MNJ.01.03,"Rapat Umum Pemegang Saham Luar Biasa (RUPSLB) (Skenario, Undangan, Daftar Hadir, Risalah)",2 Tahun,3 Tahun,Permanen
+MNJ.01.04,"Rapat Pimpinan (Rapat Direksi & Dekom, Rapat Dekom, Rapat Direksi)",2 Tahun,3 Tahun,Permanen
+MNJ.01.05,Rapat Gabungan/ Rapat Staff (Monitoring Kinerja/Sosialisasi/Internal),1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+MNJ.01.06,Rapat Koordinasi dengan Anak Perusahaan,1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+MNJ.02.01,Penciptaan Arsip (Pengelolaan surat masuk & keluar),2 Tahun setelah Tahun anggaran,3 Tahun,Musnah kecuali buku agenda Permanen
+MNJ.02.02,"Pemeliharaan Arsip (Pemberkasan, Penataan, Penyimpanan, Alih Media, Akses)",Bervariasi,Bervariasi,Musnah
+MNJ.02.03,Pengelolaan Arsip Vital dan Arsip Terjaga,1 Tahun setelah Organisasi berakhir,4 Tahun,Permanen
+MNJ.02.04,"Penyusutan Arsip (Pemindahan, Pemusnahan, Penyerahan Arsip Statis)",Bervariasi,Bervariasi,Musnah / Permanen (untuk B.A. Pemusnahan)
+MNJ.02.05,"Sistem Pengelolaan Arsip Dinamis (TND, Klasifikasi, JRA, KKAA)",2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+MNJ.02.06,"Pembinaan Kearsipan (Bimtek, Supervisi)",2 Tahun,3 Tahun,Musnah
+MNJ.03.01,"Pengembangan Bahan Pustaka (Akuisisi, Pengolahan)",2 Tahun,3 Tahun,Musnah
+MNJ.03.02,"Jasa Perpustakaan dan Informasi (Keanggotaan, Sirkulasi, Referensi)",Bervariasi,Bervariasi,Musnah
+MNJ.03.03,"Preservasi Bahan Pustaka (Survei, Konservasi)",1 Tahun,2 Tahun,Musnah
+MUM.00.01,"Fungsi Ruangan (Permohonan, Notulen, Rekomendasi)",1 Tahun setelah beralih fungsi,1 Tahun,Musnah
+MUM.00.02,Standar Fasilitas Ruangan,1 Tahun setelah diperbaharui,1 Tahun,Musnah
+MUM.01.01,"Penggunaan ruangan, Sarana, Konsumsi/Jamuan",1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+MUM.02.01,"Listrik, Air, Telepon, Internet",1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+MUM.03.01,"Penggunaan, Perbaikan, Pajak, Sewa, Pengadaan Bahan Bakar",1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+MUM.04.01,"Penempatan, Fasilitas, Pemeliharaan Rumah Dinas",2 Tahun,3 Tahun,Musnah
+MUM.05.01,Pengelolaan fotocopy,1 Tahun,1 Tahun,Musnah
+MUM.06.01,Kebersihan Gedung dan Kantor,2 Tahun,2 Tahun,Musnah
+MUM.06.02,Kebersihan Taman dan Halaman,2 Tahun,2 Tahun,Musnah
+SDM.00.01,Usulan Kebutuhan SDM dari Unit Kerja,1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+SDM.00.02,Persetujuan/Penetapan Kebutuhan SDM,1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+SDM.01.01,"Pelaksanaan Recruitment (Pengumuman, Seleksi, Ujian, dll.)",1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+SDM.01.02,Berkas Lamaran yang ditolak,1 Tahun setelah tahun anggaran,,Musnah
+SDM.01.03,"Diklat Calon Karyawan (Dokumen OJT, dll.)",1 Tahun setelah tahun anggaran,3 Tahun,Musnah
+SDM.01.04,Pengangkatan Karyawan Baru,1 Tahun setelah penetapan,2 Tahun,Musnah
+SDM.02.01,Rotasi,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.02.02,Promosi Jabatan,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.02.03,Demosi,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.02.04,Detasiring,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.02.05,Pelaksana Tugas,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.02.06,Pelaksana Harian,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.02.07,Penugasan,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.03.01,"Komite appraisal (Notulen, Daftar Hadir)",2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.04.01,Assesment Potensi,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.04.02,Assesment Uji Hard Compentency,2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.05.01,"Pelanggaran Disiplin (Ringan, Sedang, Berat)",2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.05.02,"Sanksi Disiplin (Ringan, Sedang, Berat)",2 Tahun setelah ditetapkan,3 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.06.01,Remunerasi (Tetap & Tidak Tetap),2 Tahun setelah tahun anggaran,8 Tahun,Musnah
+SDM.06.02,Perjalanan Dinas / SPPD,1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+SDM.06.03,Kehadiran/ Jam Kerja (Shift & Non-shift),1 Tahun setelah tahun anggaran,1 Tahun,Musnah
+SDM.06.04,Izin/Cuti / Dispensasi Karyawan,1 Tahun setelah pelaksanaan,1 Tahun,Musnah
+SDM.06.05,"Sistem Informasi Karyawan (SAP HR, Manual Aplikasi)",1 Tahun setelah diperbaharui,1 Tahun,Permanen
+SDM.07.01,Talent Management,2 Tahun,3 Tahun,Musnah
+SDM.07.02,Pendidikan Tugas Belajar,2 Tahun,3 Tahun,"Musnah, kecuali sertifikat/STTPL masuk personal file"
+SDM.08.01,"Penghargaan Masa kerja Karyawan (2, 3, 4 windu)",2 Tahun setelah SK ditetapkan,3 Tahun,Musnah
+SDM.08.02,Penghargaan karyawan teladan,1 Tahun,1 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.08.03,Penghargaan karyawan lainnya,1 Tahun,1 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.08.04,Penghargaan Inovator,1 Tahun,1 Tahun,Musnah kecuali Penetapan masuk Personal File
+SDM.09.01,Pemeliharaan Kesehatan Karyawan dan Keluarga,2 Tahun setelah Pemeriksaan dan tindak lanjut hasil pemeriksaan selesai,3 Tahun,Musnah
+SDM.09.02,Employement Gathering,1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM.09.03,Asuransi Tenaga Kerja/ Karyawan,2 Tahun setelah hak dan kewajiban habis,3 Tahun,Musnah
+SDM.09.04,"Perlengkapan Kerja (Seragam, Atribut)",1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM.09.05,Santunan Uang Duka,1 Tahun setelah Penempatan Berakhir,1 Tahun,Musnah
+SDM.09.06,Bantuan Pinjaman Pemilikan Rumah/ BPRP,1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM.10.01,Bidang Keagamaan,1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM.10.02,Bidang Olahraga,1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM10.03,Bidang Seni,1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM.10.04,Bintal Karyawan dan Keluarga,1 Tahun setelah tahun Anggaran,1 Tahun,Musnah
+SDM.11.01,"Dana Pensiun (Pengurus, Dewan Pengawas, PDP, Arahan Investasi)",2 Tahun setelah dibubarkan,3 Tahun,Musnah
+SDM.12.01,Serikat Pekerja,2 Tahun,3 Tahun,Musnah
+SDM.12.02,Persatuan Istri Karyawan,2 Tahun,3 Tahun,Musnah
+SDM.12.03,Koperasi Karyawan,2 Tahun,3 Tahun,Musnah
+SDM.12.04,YPK,2 Tahun,3 Tahun,Musnah
+SDM.12.05,IKA PLN,2 Tahun,3 Tahun,Musnah
+SDM.12.06,Organisasi Non Kedinasan Lainnya,2 Tahun,3 Tahun,Musnah
+SDM.13.01,Pemutusan Hubungan Kerja dengan Hormat,1 Tahun setelah ditetapkan,4 Tahun,"Musnah, kecuali PHK karena pensiun masuk personal file"
+SDM.13.02,Pemutusan Hubungan Kerja tidak dengan hormat,1 Tahun setelah ditetapkan,4 Tahun,"Musnah, kecuali PHK karena pensiun masuk personal file"
+SDM.14.01,Penyelesaian Bidang Ketenagakerjaan/ Sengketa Karyawan,1 Tahun setelah ditetapkan,4 Tahun,"Musnah, kecuali PHK karena pensiun masuk personal file"
+SDM.15.01,"Personal file (SK, Akta, Ijazah, dll. yang berkaitan dengan riwayat karyawan)",5 Tahun setelah PHK/Pensiun,15 Tahun,"Musnah, kecuali komisaris, direksi dan karyawan yang berjasa/terlibat peristiwa berskala nasional, permanen"
+DLT.00.01,"Training Need Analysis (Usulan Pelatihan, dll.)",3 Tahun,3 Tahun,Musnah
+DLT.00.02,"Program Diklat Tahunan (Rencana Anggaran, TOR, dll.)",3 Tahun,3 Tahun,Musnah
+DLT.00.03,Kurikulum/Silabus Diklat,3 Tahun,3 Tahun,Musnah
+DLT.00.04,Bahan Ajar Diklat,3 Tahun,3 Tahun,Musnah
+DLT.01.01,"Diklat Offsite (Konfirmasi, Pendaftaran, Laporan, dll.)",1 Tahun setelah tahun anggaran,3 Tahun,Musnah
+DLT.01.02,"Diklat Inhouse (Undangan, Dokumentasi, Laporan, Daftar Hadir, dll.)",1 Tahun setelah tahun anggaran,3 Tahun,Musnah
+DLT.02.01,Evaluasi Diklat,1 Tahun setelah tahun anggaran,3 Tahun,Musnah
+DLT.03.01,Database / Sistem Informasi Diklat,2 Tahun setelah diperbaharui,3 Tahun,Musnah
+SPI.00.01,Program Audit Tahunan,2 Tahun,2 Tahun,Musnah
+SPI.00.02,Daftar Auditor Internal,5 Tahun,2 Tahun,Musnah
+SPI.01.01,"Pengawasan Keuangan (Kertas Kerja, Notice, Laporan, Tindak Lanjut)",2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
+SPI.01.02,"Pengawasan Operasional (Kertas Kerja, Notice, Laporan, Tindak Lanjut)",2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
+SPI.01.03,Pengawasan Khusus/atas Permintaan,2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
+SPI.01.04,Pengawasan Kegiatan Lainnya,2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
+SPI.02.01,Laporan Hasil Audit Badan Pemeriksa Keuangan (BPK),2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali ada Tindak Lanjut hasil Pemeriksaan Permanen
+SPI.02.02,Laporan Hasil Audit Badan Pemeriksa Keuangan dan Pembangunan (BPKP),2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali ada Tindak Lanjut hasil Pemeriksaan Permanen
+SPI.02.03,Laporan Hasil Audit Kantor Akuntan Publik (KAP),2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
+SPI.02.04,Laporan Auditor Independen (audited),2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah kecuali Tindak Lanjut dan Management Letter yang berskala Nasional Permanen
+SPI.03.01,Monitoring Tindaklanjut Pengawasan,2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah
+SPI.03.02,Laporan Hasil Evaluasi Monitoring Tindak Lanjut,2 Tahun setelah tindaklanjut selesai,3 Tahun,Musnah
+SPI.04.01,Laporan Tindakan Koreksi dan Pencegahan (LTKP),2 Tahun,3 Tahun,Musnah
+SPI.05.01,"Pakta Integritas, Pernyataan Dekom & Direksi, dll.",2 Tahun,3 Tahun,Musnah
+MRK.00.01,Kajian Risiko,2 Tahun,3 Tahun,Permanen
+MRK.00.02,Mitigasi Risiko,2 Tahun,3 Tahun,Permanen
+MRK.00.03,Pemantauan Risiko,2 Tahun,3 Tahun,Musnah
+MRK.00.04,Evaluasi Penerapan Manajemen Risiko,2 Tahun,3 Tahun,Musnah
+MRK.01.01,Roadmap GCG,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+MRK.01.02,Diseminasi GCG,2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+MRK.01.03,Assessment GCG,2 Tahun setelah tidak berlaku,3 Tahun,"Musnah, kecuali Hasil Penilaian GCG Permanen"
+MRK.01.04,Kepatuhan (terhadap Peraturan & Kode Etik),3 Tahun,3 Tahun,Musnah
+MRK.01.04,Program Pengenalan Direksi dan Dewan Komisaris Baru,3 Tahun,3 Tahun,Permanen
+MRK.02.01,Program Pengendalian Gratifikasi (PPG),2 Tahun,3 Tahun,Musnah
+MRK.03.01,Program Whistleblowing System (WBS),2 Tahun,3 Tahun,Musnah
+MRK.04.01,Laporan Harta Kekayaan Karyawan (LHKPN),1 Tahun setelah tidak menjabat/pindah grade,1 Tahun,Musnah
+MRK.05.01,Fraud Control Plan (FCP),2 Tahun,3 Tahun,Musnah
+KBL.00.01,"Penyaluran Pinjaman Program Kemitraan (Proposal, Survei, Perjanjian, Voucher, Jaminan)",2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.00.02,"Monitoring, Rescheduling, Reconditioning dan Penagihan",2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,3 Tahun,Musnah
+KBL.00.03,"Pembinaan Kemitraan (Promosi, Pelatihan)",1 Tahun,2 Tahun,Musnah
+KBL.00.04,Pelaporan Program Kemitraan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,3 Tahun,Musnah
+KBL.01.01,Bantuan Sosial Kemasyarakatan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.02,Bantuan Pendidikan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.03,Bantuan Pelestarian Alam,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.04,Bantuan Kesehatan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.05,Bantuan Sarana Umum,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.06,Bantuan Sarana Ibadah,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.07,Bantuan Bencana Alam,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KBL.01.08,Pelaporan Bina Lingkungan,2 Tahun setelah tindak lanjut hasil pemeriksaan telah selesai,8 Tahun,Musnah
+KLH.00.01,Pengukuran Kondisi Lingkungan Kerja,2 Tahun,3 Tahun,Musnah
+KLH.00.02,Distribusi P3K,2 Tahun,3 Tahun,Musnah
+KLH.00.03,Cek Kesehatan Berkala,2 Tahun setelah pemberhentian kerja/pensiun,3 Tahun,Musnah
+KLH.01.01,"Informasi Keselamatan (Safety Information, Safety Induction)",2 Tahun,3 Tahun,Musnah
+KLH.01.02,Inspeksi Berkala,2 Tahun,3 Tahun,Musnah
+KLH.02.01,Pemberian Izin Kerja di area Perusahaan (Work Permit),1 Tahun setelah Izin tidak berlaku,1 Tahun,Musnah
+KLH.02.02,Identifikasi Bahaya K3 (JSA),1 Tahun,1 Tahun,Musnah
+KLH.02.03,Laporan Keselamatan & Kesehatan Kerja,1 Tahun setelah tidak digunakan,2 Tahun,Musnah
+KLH.02.04,Investigasi Kecelakaan,1 tahun setelah investigasi dan tindak lanjut selesai,2 Tahun,Musnah
+KLH.02.05,Safety Equipment,1 Tahun,1 Tahun,Musnah
+KLH.03.01,"Pengamanan Terbuka (Jadwal, Penjagaan, Pengawalan, Patroli)",1 Tahun,1 Tahun,Musnah
+KLH.03.02,"Pengamanan Tertutup (ID Card, Stiker, Monitoring)",1 Tahun,1 Tahun,Musnah
+KLH.03.03,Pengelolaan dan Pengoperasian CCTV,1 Tahun,1 Tahun,Musnah
+KLH.03.04,Izin Perpanjangan dan Penggunaan Senjata Api,2 Tahun setelah izin berakhir,3 Tahun,Musnah
+KLH.03.05,Kerjasama Bidang Kamtibmas dengan TNI dan Polri,1 Tahun setelah perjanjian berakhir,1 Tahun,Musnah
+KLH.04.01,Simulasi Tanggap Darurat,1 Tahun,1 Tahun,Musnah
+KLH.04.02,Training K3,1 Tahun,1 Tahun,Musnah
+KLH.04.03,Training Evaluasi Penggunaan Alat,1 Tahun,1 Tahun,Musnah
+KLH.04.04,Penghargaan K3,1 Tahun,1 Tahun,Musnah
+KLH.04.05,Lomba K3,1 Tahun,1 Tahun,Musnah
+KLH.05.01,Inspeksi K3,1 Tahun,1 Tahun,Musnah
+KLH.05.02,"Laporan Kejadian (Kebakaran, kecelakaan kerja, dll.)",1 Tahun,1 Tahun,"Musnah, kecuali berdampak secara nasional Permanen"
+KLH.05.03,Modifikasi Sarana Peralatan Terkait Penanggulangan,1 Tahun,1 Tahun,Musnah
+KLH.06.01,"Laporan P2K3, Notulen Rapat P2K3",2 Tahun,3 Tahun,Musnah
+KLH.07.01,Safety Management,2 Tahun,3 Tahun,Musnah
+KLH.08.01,Contractor Safety Management System (CSMS),1 Tahun setelah kerjasama berakhir,2 Tahun,Musnah
+KLH.09.01,Gugus Pengendali Kebakaran (Gupenkar),2 Tahun,3 Tahun,Musnah
+KLH.10.01,Safety Representative,2 Tahun,3 Tahun,Musnah
+KLH.11.01,"Sistem Manajemen Kesehatan, Kesetamatan dan Keamanan Kerja",2 tahun setelah tidak berlaku,3 Tahun,Musnah
+EPI.00.01,"Penyusunan Kebijakan dan Strategi (Analisa, Kajian, Usulan, Rekomendasi, Rancangan, Penetapan)",2 Tahun setelah diperbarui,3 Tahun,Permanen
+EPI.01.01,"Energi Batubara (Perencanaan, Pelaksanaan, Pengendalian, Monitoring)",5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.01.02,"Energi Gas (Perencanaan, Pelaksanaan, Pengendalian, Monitoring)",5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.01.03,"Energi BBM (Perencanaan, Pelaksanaan, Pengendalian, Monitoring)",5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.01,Air,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.02,Panas Bumi,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.03,Angin,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.04,Surya,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.05,Minyak Nabati,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.06,Gelombang Air Laut,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.07,Nuklir,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+EPI.02.08,Hidrogen,5 Tahun setelah pelaksanaan,5 Tahun,Musnah
+TRS.00.01,Penyusunan Kebijakan dan Strategi Transmisi,2 Tahun setelah diperbarui,3 Tahun,Permanen
+TRS.01.01,Sistem SCADA,2 Tahun setelah tidak beroperasi,3 Tahun,Permanen
+TRS.01.02,Transmisi Tegangan Ekstra Tinggi,2 Tahun setelah tidak beroperasi,3 Tahun,Permanen
+TRS.01.03,Transmisi Tegangan Tinggi,2 Tahun setelah tidak beroperasi,3 Tahun,Permanen
+TRS.01.04,Gardu Induk Tegangan Ekstra Tinggi,2 Tahun setelah tidak beroperasi,3 Tahun,Permanen
+TRS.01.05,Gardu Induk Tegangan Tinggi,2 Tahun setelah tidak beroperasi,3 Tahun,Permanen
+AGA.00.01,Penyusunan Kebijakan Niaga,2 Tahun setelah tidak berlaku,3 Tahun,Permanen
+AGA.01.01,Survei Pasar,5 Tahun setelah diperbarui,5 Tahun,Permanen
+AGA.01.02,Riset Pasar,5 Tahun setelah diperbarui,5 Tahun,Permanen
+AGA.01.03,Ekonomi Energi/Forcasting Energy,5 Tahun setelah diperbarui,5 Tahun,Permanen
+AGA.02.01,"Perencanaan, Penagihan, Pelaporan Subsidi",5 Tahun setelah pemeriksaan dan tindak lanjut hasil pemeriksaan telah selesai,5 Tahun,Permanen
+AGA.03.01,Rencana Tarif,5 Tahun setelah diperbarui,5 Tahun,Permanen
+AGA.03.02,Implementasi Tarif,5 Tahun setelah diperbarui,5 Tahun,Permanen
+AGA.04.01,"Pengelolaan Pelanggan (Pemasangan Baru, SPJBTL, Perubahan Data, Manajemen Cater, Billing)",10 Tahun setelah pelaksanaan,10 Tahun,Permanen
+AGA.04.02,"Manajemen Piutang (P2APST, Revenue Assurance)",10 Tahun setelah pelaksanaan,10 Tahun,Permanen
+AGA.04.03,Manajemen Pemutusan dan Penyambungan,10 Tahun setelah pelaksanaan,10 Tahun,Permanen
+AGA.05.01,Contact Center/Info Pelanggan,2 Tahun setelah pelaksanaan,3 Tahun,Musnah kecuali berskala nasional Permanen
+AGA.05.02,Aplikasi Pengaduan Keluhan Terpadu (APKT),2 Tahun setelah pelaksanaan,3 Tahun,Musnah kecuali berskala nasional Permanen
+AGA.05.03,Tingkat Mutu Pelayanan (TMP),2 Tahun setelah pelaksanaan,3 Tahun,Musnah kecuali berskala nasional Permanen
+LIT.00.01,Penelitian Energi Primer dan Energi Terbarukan,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali penelitian berskala nasional Permanen"
+LIT.00.02,Penelitian Sistem Pembangkitan,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali penelitian berskala nasional Permanen"
+LIT.00.03,Penelitian Sistem Transmisi,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali penelitian berskala nasional Permanen"
+LIT.00.04,Penelitian Lingkungan Hidup,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali penelitian berskala nasional Permanen"
+LIT.01.01,Pengujian Energi Primer dan Energi Terbarukan,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.01.02,Pengujian Sistem Pembangkitan,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.01.03,Pengujian Sistem Transmisi dan distribusi,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.01.04,Pengujian Lingkungan Hidup,2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.02.01,Kalibrasi Sistem Pembangkitan,2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+LIT.02.02,Kalibrasi Sistem Transmisi dan Distribusi,2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+LIT.03.01,"Study Kelayakan (Feasibility Study, Study Lokasi)",2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.03.02,"Persetujuan Pemegang Saham (Permohonan, Notulen, Persetujuan RUPS)",2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.03.03,"Persiapan Proyek (Pembentukan tim, Gambar Rancangan, Laporan)",2 Tahun setelah pabrik tidak beroperasi,3 Tahun,"Musnah, kecuali proyek berskala nasional Permanen"
+LIT.04.01,Standarisasi Sistem Pembangkitan,2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+LIT.04.02,Standarisasi Sistem Transmisi dan Distribusi,2 Tahun setelah tidak berlaku,3 Tahun,Musnah
+CSR.00.01,Pengelolaan program CSR,3 Tahun setelah seluruh proses diselesaikan,7 Tahun,Musnah
+CSR.00.02,Laporan CSR,3 Tahun setelah seluruh proses diselesaikan,7 Tahun,Musnah
