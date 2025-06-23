@@ -1,3 +1,5 @@
+# main.py - VERSI FINAL UNTUK LOKAL (FLASK)
+
 import os
 import io
 import time
@@ -6,32 +8,27 @@ import pandas as pd
 from dotenv import load_dotenv
 from flask import Flask, request, render_template, send_file
 
-# Memuat variabel rahasia dari file .env (atau Secrets di Replit)
+# Memuat variabel rahasia dari file .env atau 'token akses'
 load_dotenv() 
 
 # --- KONFIGURASI GLOBAL ---
 HF_API_KEY = os.getenv("HF_API_KEY")
-# Pastikan ini adalah URL model spesialis Anda yang sudah di-fine-tuning
-API_URL = "https://api-inference.huggingface.co/models/fadzaki31/jra-klasifikasi-spesialis" 
+API_URL = "https://api-inference.huggingface.co/models/fadzaki31/jra-klasifikasi-spesialis"
 HEADERS = {"Authorization": f"Bearer {HF_API_KEY}"}
-# Path ke file pedoman JRA. Gunakan path absolut untuk PythonAnywhere, atau relatif untuk Replit/Lokal.
-JRA_FILE_PATH = "JRA.xlsx - Sheet1.csv" # Path untuk Replit/Lokal
-# JRA_FILE_PATH = "/home/fadzaki/ai-agent-pln/JRA.xlsx - Sheet1.csv" # Path untuk PythonAnywhere
+
+# Path ke file pedoman JRA Anda. Ini adalah path relatif.
+# Pastikan file CSV ini ada di folder yang sama dengan main.py
+JRA_FILE_PATH = "JRA.xlsx - Sheet1.csv" 
 
 # --- FUNGSI-FUNGSI INTI ---
 
 def classify_title(title: str):
     """Mengirim judul ke model klasifikasi fine-tuned Anda."""
-    
-    # Payload untuk model klasifikasi standar (bukan zero-shot)
-    payload = {"inputs": title} 
-    
+    payload = {"inputs": title}
     try:
         response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=180)
         response.raise_for_status() 
         result = response.json()
-
-        # Menangani jika model sedang loading
         if isinstance(result, dict) and result.get("error"):
             error_message = result.get("error", "")
             if "is currently loading" in error_message:
@@ -41,11 +38,8 @@ def classify_title(title: str):
                 response = requests.post(API_URL, headers=HEADERS, json=payload, timeout=180)
                 response.raise_for_status()
                 result = response.json()
-
-        # Urutkan hasil berdasarkan skor dan ambil label dengan skor tertinggi
         best_result = sorted(result[0], key=lambda x: x['score'], reverse=True)[0]
         return best_result['label']
-
     except requests.exceptions.Timeout:
         return "Error: Timeout ke server AI"
     except requests.exceptions.RequestException:
@@ -77,14 +71,12 @@ def read_root():
 @app.route("/process-file/", methods=['POST'])
 def process_file():
     """Menerima file, memuat pedoman, memproses, dan mengembalikan hasilnya."""
-    
     if 'file' not in request.files:
         return "Error: Tidak ada file yang diunggah.", 400
     uploaded_file = request.files['file']
     if uploaded_file.filename == '':
         return "Error: Tidak ada file yang dipilih.", 400
 
-    # Memuat Pedoman JRA hanya saat dibutuhkan
     try:
         column_names = ["Kode", "Uraian", "Retensi Aktif", "Retensi Inaktif", "Keterangan"]
         jra_details_df = pd.read_csv(
@@ -92,18 +84,19 @@ def process_file():
         )
         jra_details_df.set_index('Kode', inplace=True)
     except Exception as e:
-        return f"Error Kritis: Gagal memuat file pedoman JRA '{JRA_FILE_PATH}'. Pastikan file ada di folder yang benar. Error: {e}", 500
+        return f"Error Kritis: Gagal memuat file pedoman JRA '{JRA_FILE_PATH}'. Pastikan file ada di folder yang sama. Error: {e}", 500
 
-    # Memproses File Unggahan Pengguna
     temp_path = f"temp_{uploaded_file.filename}"
     try:
         uploaded_file.save(temp_path)
         df_to_process = pd.read_excel(temp_path, engine='openpyxl')
         
+        # Hapus .head(5) untuk memproses seluruh file
+        # df_to_process = df_to_process.head(5) 
+        
         if 'Judul Dokumen' not in df_to_process.columns:
             raise ValueError("File Excel harus memiliki kolom bernama 'Judul Dokumen'")
             
-        # Panggilan ke classify_title TIDAK LAGI memerlukan jra_labels
         df_to_process['Klasifikasi'] = df_to_process['Judul Dokumen'].apply(
             lambda title: classify_title(str(title))
         )
