@@ -1,5 +1,0 @@
-# Ini adalah file .replit yang sudah lengkap dan benar
-entrypoint = "main.py"
-
-[run]
-command = ["gunicorn", "main:app", "--bind", "0.0.0.0:8080"]
