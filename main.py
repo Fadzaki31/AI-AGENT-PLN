@@ -1,4 +1,6 @@
-# main.py - VERSI FINAL UNTUK LOKAL (FLASK)
+# ==================================================================
+#            main.py - VERSI FINAL ABSOLUT (FIX PANGGILAN FUNGSI)
+# ==================================================================
 
 import os
 import io
@@ -8,17 +10,14 @@ import pandas as pd
 from dotenv import load_dotenv
 from flask import Flask, request, render_template, send_file
 
-# Memuat variabel rahasia dari file .env atau 'token akses'
+# Memuat variabel rahasia
 load_dotenv() 
 
 # --- KONFIGURASI GLOBAL ---
 HF_API_KEY = os.getenv("HF_API_KEY")
 API_URL = "https://api-inference.huggingface.co/models/fadzaki31/jra-klasifikasi-spesialis"
 HEADERS = {"Authorization": f"Bearer {HF_API_KEY}"}
-
-# Path ke file pedoman JRA Anda. Ini adalah path relatif.
-# Pastikan file CSV ini ada di folder yang sama dengan main.py
-JRA_FILE_PATH = "JRA.xlsx - Sheet1.csv" 
+JRA_FILE_PATH = "JRA.xlsx - Sheet1.csv"
 
 # --- FUNGSI-FUNGSI INTI ---
 
@@ -91,15 +90,16 @@ def process_file():
         uploaded_file.save(temp_path)
         df_to_process = pd.read_excel(temp_path, engine='openpyxl')
         
-        # Hapus .head(5) untuk memproses seluruh file
-        # df_to_process = df_to_process.head(5) 
-        
         if 'Judul Dokumen' not in df_to_process.columns:
             raise ValueError("File Excel harus memiliki kolom bernama 'Judul Dokumen'")
             
+        # --- PERBAIKAN DI SINI ---
+        # Panggilan ke classify_title tidak lagi memerlukan jra_labels
         df_to_process['Klasifikasi'] = df_to_process['Judul Dokumen'].apply(
             lambda title: classify_title(str(title))
         )
+        # -------------------------
+
         result_df = df_to_process
         
         result_df[['Aktif', 'Inaktif', 'Keterangan']] = result_df['Klasifikasi'].apply(
@@ -109,6 +109,7 @@ def process_file():
         output = io.BytesIO()
         with pd.ExcelWriter(output, engine='openpyxl') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Hasil Klasifikasi')
+        # Menutup writer secara eksplisit adalah praktik yang baik
         output.seek(0)
 
         return send_file(
